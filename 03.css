@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: white;
+}
+.container{
+    width: 350px;
+    margin: 20px auto;
+    padding: 40px;
+    align-items: center;
+    border: 1.5px solid rgb(219, 219, 219);
+}
+.container #in {
+    width: 170px;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    align-items: center;
+    
+    
+    
+    
+}
+.con input{
+    height: 36px;
+    padding: 7px;
+    margin: 5px;
+    width: 100%;
+    border: none;
+    border: 1px solid rgb(219, 219, 219);
+    display: block;
+
+}
+button{
+    width: 268px;
+    height: 32px;
+    margin-left: 5px;
+    padding-left: 15px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: white;
+    background-color: #4cb5f9;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+  
+   
+}
+#or{
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    
+}
+#or:before,
+#or:after{
+    content: '----------------------';
+    color: #DBDBDB;
+    margin: 0,10px;
+} 
+
+
+.a{
+    text-decoration: none;
+    font-style: normal;
+    font-size: medium;
+    color: #385185;
+    margin-left: 60px;
+    text-align: center;
+  
+    margin-top: 30px;
+    display: inline;
+    
+}
+.a #im{
+    display: inline;
+    width: 20px;
+    margin-top: 30px;
+    padding-right: 5px;
+
+    
+}
+.b{
+    text-decoration: none;
+    padding-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    color: rgb(0, 55, 107);
+    display: block;
+}
+.don{
+    width: 350px;
+    height: 60px;
+    padding-top:20px ;
+    font-size: 17px;
+    text-align: center;
+    border: 1px solid rgb(219, 219, 219);
+    margin: auto;
+}
+.don p a{
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 2px;
+    font-size: 17px;
+    color:rgb(0, 149,247);
+}
+h4{
+  text-align: center;
+  margin-top: 20px;
+}
+.png .gg{
+    width: 160px;
+    margin-left: 599px;
+}
+.png .ms{
+    width: 110px;
+    margin-bottom: 11px;
+}
+.letter{
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.letter a {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 6px;
+    color: rgb(115, 115, 115);
+}
+.select{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.select select{
+    color: rgb(115, 115, 115);
+    border: none;
+    width: 70px;
+}
+.select a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(115, 115, 115);
+    padding-left: 30px;
+}
